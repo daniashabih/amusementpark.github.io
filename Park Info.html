@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Park Info</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #3b1463;
+        }
+        
+        .nav-item a:hover {
+            background-color: #555;
+        }
+        /* Necessary for full page carousel*/
+        
+        html,
+        body,
+        .view {
+            height: 100%;
+        }
+        /* Carousel*/
+        
+        .carousel,
+        .carousel-item,
+        .carousel-item.active {
+            height: 100%;
+        }
+        
+        .carousel-inner {
+            height: 100%;
+        }
+        
+        .carousel .carousel-item video {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="mb-1 navbar navbar-expand-lg navbar-purple darken-4">
+        <a href="index.html">
+            <img src="images/logo.png" class="navbar-brand"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span  class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a style="text-align: center;font-family:Bradley Hand, cursive;font-weight:400; font-style: normal; font-size:20pt; color:yellow;" class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a style="text-align: center;font-family:Bradley Hand, cursive;font-weight:400; font-style: normal; font-size:20pt; color:yellow;" class="nav-link" href="Experience.html">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a style="text-align: center;font-family:Bradley Hand, cursive;font-weight:400; font-style: normal; font-size:20pt; color:yellow;" class="nav-link" href="Park Info.html">Park Info</a>
+                </li>
+                <li class="nav-item">
+                    <a style="text-align: center;font-family:Bradley Hand, cursive;font-weight:400; font-style: normal; font-size:20pt; color:yellow;" class="nav-link" href="Rates.html">Rates</a>
+                </li>
+                <li class="nav-item">
+                    <a style="text-align: center;font-family:Bradley Hand, cursive;font-weight:400; font-style: normal; font-size:20pt; color:yellow;" class="nav-link" href="Leisure.html">Leisure</a>
+                </li>
+                <li class="nav-item">
+                    <a style="text-align: center;font-family:Bradley Hand, cursive;font-weight:400; font-style: normal; font-size:20pt; color:yellow;" class="nav-link" href="Whats.html">Whats Up</a>
+                </li>
+                <li class="nav-item">
+                    <a style="float: right;font-family:Bradley Hand, cursive;font-weight:400; font-style: normal; font-size:20pt; color:yellow;" class="nav-link" href="Book Now.html"><i class="far fa-user"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+
+        </ol>
+        <!--/.Indicators-->
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+            <!--First slide-->
+            <div class="carousel-item active">
+                <!--Mask-->
+                <div class="view">
+                    <!--Video source-->
+                    <video muted autoplay loop playsinline>
+                      <source src=" Video/90.mp4" type="video/mp4" />
+                  </video>
+                    <!-- Carousel content -->
+                    <div class="full-bg-img flex-center mask rgba-indigo-light white-text">
+                        <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
+
+
+                        </ul>
+                    </div>
+                </div>
+                <!--/Mask-->
+            </div>
+            <!--/First slide-->
+
+        </div>
+        <!--/.Slides-->
+        <br>
+        <br>
+        <h1 style="text-align: center;font-family:Abril Fatface;font-weight:400; font-style: normal; font-size:40pt; color:yellow;">ABOUT MERCIADO AMUSEMENT PARK</h1>
+        <!--Main layout-->
+        <main>
+            <div class="container">
+
+
+                <!--Section: Main info-->
+                <section class="mt-5 wow fadeIn">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6 mb-4">
+
+                            <img width="562" height="420" src=" images/name.png">
+
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6 mb-4">
+
+                            <!-- Main heading -->
+                            <h1 style="text-align: center;font-family:Abril Fatface;font-weight:400; font-style: normal; font-size:30pt; color:yellow;">Explore The Magic</h1>
+                            <p style="text-align: center; color: aliceblue; font-size: 15pt; font-family: URW Chancery L, cursive;">Looking for an opportunity to have unlimited fun? Fun Zone is the place to go. We are offering you an ultimate destination for unlimited entertaining, thrill, and non-stop fun in Chicago</p>
+                            <p style="text-align: center; color: aliceblue; font-size: 15pt; font-family: URW Chancery L, cursive;">Read details below to learn more about
+                                <Fig>Funzone</Fig>.</h5>
+                                <!-- Main heading -->
+
+                                <hr>
+
+                                <p style="text-align: center; color: aliceblue; font-size: 15pt; font-family: URW Chancery L, cursive;">
+                                    At, Fun Zone, you will have an array of exciting, adventurous, and enthralling activities that will make you visit this place every weekend with your friends.
+                                </p>
+
+
+
+                        </div>
+                        <!--Grid row-->
+
+                </section class="color">
+                <!--Section: Main info-->
+
+                <hr class="my-5">
+
+                <!--Section: Main features & Quick Start-->
+                <section>
+
+
+
+                    <!--Grid row-->
+                    <div class="row wow fadeIn">
+
+                        <!--Grid column-->
+                        <div class="col-lg-6 col-md-12 px-4">
+
+                            <!--First row-->
+                            <div class="row">
+                                <div class="col-1 mr-3">
+
+                                </div>
+                                <div class="col-10">
+                                    <h1 style="text-align: center;font-family:Abril Fatface;font-weight:400; font-style: normal; font-size:30pt; color:yellow;">Adventure</h1>
+                                    <p style="text-align: center; color: aliceblue; font-size: 15pt; font-family: URW Chancery L, cursive;">FunZone provides with awesome adventurous rides and unlimited fun and memories.</h5>
+                                </div>
+                            </div>
+                            <!--/First row-->
+
+                            <div style="height:30px"></div>
+
+                            <!--Second row-->
+                            <div class="row">
+                                <div class="col-1 mr-3">
+
+                                </div>
+                                <div class="col-10">
+                                    <h1 style="text-align: center;font-family:Abril Fatface;font-weight:400; font-style: normal; font-size:30pt; color:yellow;">Entertainment</h1>
+                                    <p style="text-align: center; color: aliceblue; font-size: 15pt; font-family: URW Chancery L, cursive;">With our efforts for providing Karachiites the hub for entertainment. We our humbled to announce 0urselves as the number one choice for the fun seekers.
+                                        </h5>
+                                </div>
+                            </div>
+                            <!--/Second row-->
+
+                            <div style="height:30px"></div>
+
+                            <!--Third row-->
+                            <div class="row">
+                                <div class="col-1 mr-3">
+
+                                </div>
+                                <div class="col-10">
+                                    <h1 style="text-align: center;font-family:Abril Fatface;font-weight:400; font-style: normal; font-size:30pt; color:yellow;">Excitement</h1>
+                                    <p style="text-align: center; color: aliceblue; font-size: 15pt; font-family: URW Chancery L, cursive;">Indulge in the most adrenaline-rushing rides, game zones, and many other activities to give you the time of your life. </h5>
+                                </div>
+                            </div>
+                            <!--/Third row-->
+
+                        </div>
+                        <!--/Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-6 col-md-12">
+
+                            <p style="text-align: center; color: aliceblue; font-size: 15pt; font-family: URW Chancery L, cursive;">Watch our video </p>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <video muted autoplay loop playsinline>
+                    <source src=" Video/park.mp4" type="video/mp4" />
+                </video>
+
+                            </div>
+                        </div>
+                        <!--/Grid column-->
+
+                    </div>
+                    <!--/Grid row-->
+
+                </section>
+                <!--Section: Main features & Quick Start-->
+
+
+
+
+                <hr class="mb-5">
+
+                <!--Section: More-->
+                <section>
+
+                    <h1 style="text-align: center;font-family:Abril Fatface;font-weight:400; font-style: normal; font-size:40pt; color:yellow;">SERVICES</h1>
+
+                    <!--First row-->
+                    <div class="row features-small mt-5 wow fadeIn">
+
+                        <!--Grid column-->
+                        <div class="col-xl-3 col-lg-6">
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-2">
+
+                                </div>
+
+                                <div class="col-10 mb-2 pl-3">
+                                    <center><img width="100" height="100" src=" images/rides.png"></center>
+                                    <br>
+                                    <h5 style="text-align: center;font-family:Abril Fatface;font-weight:600; font-style: normal; font-size:20pt; color:yellow;" class="feature-title font-bold mb-1">Rides</h5>
+                                    <p style="text-align: center; color: aliceblue; font-size: 15pt; font-family: URW Chancery L, cursive;">Providing rides that mesmerize you to the maximum.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!--/Grid row-->
+                        </div>
+                        <!--/Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-xl-3 col-lg-6">
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-2">
+
+                                </div>
+                                <div class="col-10 mb-2">
+                                    <center><img width="100" height="100" src=" images/parking.png"></center>
+                                    <br>
+                                    <h5 style="text-align: center;font-family:Abril Fatface;font-weight:600; font-style: normal; font-size:20pt; color:yellow;" class="feature-title font-bold mb-1">Parking</h5>
+                                    <p style="text-align: center; color: aliceblue; font-size: 15pt; font-family: URW Chancery L, cursive;">Assisting high-standard parking facilities to the visitors.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--/Grid row-->
+                        </div>
+                        <!--/Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-xl-3 col-lg-6">
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-2">
+
+                                </div>
+                                <div class="col-10 mb-2">
+                                    <center><img width="100" height="100" src=" images/wheelchair.png"></center>
+                                    <br>
+                                    <h5 style="text-align: center;font-family:Abril Fatface;font-weight:600; font-style: normal; font-size:20pt; color:yellow;" class="feature-title font-bold mb-1">Wheel chair</h5>
+                                    <p style="text-align: center; color: aliceblue; font-size: 15pt; font-family: URW Chancery L, cursive;">Providing our valuable visitors with the wheelchair facility.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--/Grid row-->
+                        </div>
+                        <!--/Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-xl-3 col-lg-6">
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-2">
+
+                                </div>
+                                <div class="col-10 mb-2">
+                                    <center><img width="100" height="100" src=" images/indoorgame.png"></center>
+                                    <br>
+                                    <h5 style="text-align: center;font-family:Abril Fatface;font-weight:600; font-style: normal; font-size:20pt; color:yellow;" class="feature-title font-bold mb-1">Indoor Games</h5>
+                                    <p style="text-align: center; color: aliceblue; font-size: 15pt; font-family: URW Chancery L, cursive;">The indoor games at Askari Islands of Fun are all about the endless journey of enjoyment.
+
+
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!--/Grid row-->
+                        </div>
+                        <!--/Grid column-->
+
+                    </div>
+                    <!--/First row-->
+
+                    <!--Second row-->
+                    <div class="row features-small mt-4 wow fadeIn">
+
+                        <!--Grid column-->
+                        <div class="col-xl-3 col-lg-6">
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-2">
+
+                                </div>
+                                <div class="col-10 mb-2">
+                                    <center><img width="100" height="100" src=" images/foodcourt.png"></center>
+                                    <br>
+                                    <h5 style="text-align: center;font-family:Abril Fatface;font-weight:600; font-style: normal; font-size:20pt; color:yellow;" class="feature-title font-bold mb-1">Food court</h5>
+                                    <p style="text-align: center; color: aliceblue; font-size: 15pt; font-family: URW Chancery L, cursive;">The tummy satisfying food chains are here to double the fun.</p>
+                                </div>
+                            </div>
+                            <!--/Grid row-->
+                        </div>
+                        <!--/Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-xl-3 col-lg-6">
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-2">
+
+                                </div>
+                                <div class="col-10 mb-2">
+                                    <center><img width="100" height="100" src=" images/safety.png"></center>
+                                    <br>
+                                    <h5 style="text-align: center;font-family:Abril Fatface;font-weight:600; font-style: normal; font-size:20pt; color:yellow;" class="feature-title font-bold mb-1">Safety</h5>
+                                    <p style="text-align: center; color: aliceblue; font-size: 15pt; font-family: URW Chancery L, cursive;">There’s no compromise of international standard safety precautions at Askari Islands of Fun.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--/Grid row-->
+                        </div>
+                        <!--/Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-xl-3 col-lg-6">
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-2">
+
+                                </div>
+                                <div class="col-10 mb-2">
+                                    <center><img width="100" height="100" src=" images/security.png"></center>
+                                    <br>
+                                    <h5 style="text-align: center;font-family:Abril Fatface;font-weight:600; font-style: normal; font-size:20pt; color:yellow;" class="feature-title font-bold mb-1">Security</h5>
+                                    <p style="text-align: center; color: aliceblue; font-size: 15pt; font-family: URW Chancery L, cursive;">There’s no compromise of international standard safety precautions at Askari Islands of Fun.</p>
+                                </div>
+                            </div>
+                            <!--/Grid row-->
+                        </div>
+                        <!--/Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-xl-3 col-lg-6">
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-2">
+
+                                </div>
+                                <div class="col-10 mb-2">
+                                    <center><img width="100" height="100" src=" images/firstaid.png"></center>
+                                    <br>
+                                    <h5 style="text-align: center;font-family:Abril Fatface;font-weight:600; font-style: normal; font-size:20pt; color:yellow;" class="feature-title font-bold mb-1">First aid</h5>
+                                    <p style="text-align: center; color: aliceblue; font-size: 15pt; font-family: URW Chancery L, cursive;">Protection of the public is highly enabled at the amusement park.</p>
+                                </div>
+                            </div>
+                            <!--/Grid row-->
+                        </div>
+                        <!--/Grid column-->
+
+                    </div>
+                    <!--/Second row-->
+
+                </section>
+                <!--Section: More-->
+
+                </div>
+        </main>
+        <!--Main layout-->
+
+        <!-- Footer -->
+        <footer class="page-footer font-small purple darken-4">
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <h5 style="font-family:Bradley Hand, cursive;font-weight:600; font-size:15pt; color:yellow;" class="font-weight-bold text-uppercase mt-3 mb-4">News & Offers</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">EmailAddress *</a>
+                            </li>
+                            <br>
+                            <li>
+
+                                <input class="form-control" type="text" placeholder="" aria-label="Search">
+                            </li>
+                            <li>
+                                <button type="button" style="text-align: center;font-family: URW Chancery L, cursive;font-weight:600; color:black;" class="btn btn-warning btn-rounded">Submit</button>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <h5 style="font-family:Bradley Hand, cursive;font-weight:600; font-size:15pt; color:yellow;" class="font-weight-bold text-uppercase mt-3 mb-4">Direction</h5>
+
+                        <ul class="list-unstyled">
+                            Merciado park, Purani Sabzi Mandi Near Central Jail University Road Karachi, Pakistan
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <h5 style="font-family:Bradley Hand, cursive;font-weight:600; font-size:15pt; color:yellow;" class="font-weight-bold text-uppercase mt-3 mb-4">Contact
+                        </h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">marketing@Merciadopark.com.pk</a>
+                            </li>
+                            <li>
+                                <a href="#!">021-34140364-65</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <h5 style="font-family:Bradley Hand, cursive;font-weight:600; font-size:15pt; color:yellow;" class="font-weight-bold text-uppercase mt-3 mb-4">Important Links</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Home</a>
+                            </li>
+                            <li>
+                                <a href="#!">Experience</a>
+                            </li>
+                            <li>
+                                <a href="#!">Park Info</a>
+                            </li>
+                            <li>
+                                <a href="#!">Leisure</a>
+                            </li>
+                            <li>
+                                <a href="#!">Whats Up</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">Copyright © 2019 Merciado park | Made With by Brandians </a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+        </div>
+</body>
+
+</html>
